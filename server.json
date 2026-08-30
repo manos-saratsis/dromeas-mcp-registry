@@ -1,18 +1,18 @@
-
-"$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-"name": "io.github.manos-saratsis/dromeas",
-"title": "Dromeas",
-"description": "AI code review and release-readiness gating with a queryable Code Map for blast-radius reasoning.",
-"repository": {
-  "url": "https://github.com/manos-saratsis/dromeas-mcp-registry",
-  "source": "github"
-},
-"version": "1.0.0",
-"websiteUrl": "https://dromeas.ai",
-"remotes": [
-  {
-    "type": "streamable-http",
-    "url": "https://mcp.dromeas.ai/mcp"
-  }
-]
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.manos-saratsis/dromeas",
+  "title": "Dromeas",
+  "description": "AI code review and release-readiness gating with a queryable Code Map for blast-radius reasoning.",
+  "repository": {
+    "url": "https://github.com/manos-saratsis/dromeas-mcp-registry",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://dromeas.ai",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dromeas.ai/mcp"
+    }
+  ]
 }
