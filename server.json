@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.manos-saratsis/dromeas",
+  "title": "Dromeas",
+  "description": "Agentic PR and trunk code review, release-readiness gating (quality, security, compliance, testing, docs, instrumentation), and a queryable Code Map for blast-radius reasoning across GitHub, GitLab, and Bitbucket.",
+  "repository": {
+    "url": "https://github.com/manos-saratsis/dromeas-mcp-registry",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://dromeas.ai",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dromeas.ai/mcp"
+    }
+  ]
+}
